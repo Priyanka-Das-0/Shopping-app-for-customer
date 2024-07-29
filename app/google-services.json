@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878298978936",
+    "project_id": "shopclient-adc28",
+    "storage_bucket": "shopclient-adc28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878298978936:android:239cf9053f89aa3aa4ab8d",
+        "android_client_info": {
+          "package_name": "com.example.shopclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7CfnCb4yNrWrfvms8hYxs8Qs4utMCr5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878298978936:android:aafb85714bb54a7aa4ab8d",
+        "android_client_info": {
+          "package_name": "com.example.shopcustomer_stable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7CfnCb4yNrWrfvms8hYxs8Qs4utMCr5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShopCustomer_Stable</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="favourite">Favourite</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_7000"><strike> 7000 </strike></string>
+    <string name="just_now">Just now</string>
+    <string name="dummy_text">In this article, we are going to implement the strike-through feature on our TextView using this method. This can be useful when we want to edit our content but also want users to see the previous content. Like on the</string>
+    <string name="dummy_price">5153</string>
+    <string name="dummy_txt">After clicking “Pay now”, you will be redirected to Sampath Bank IPG to complete your purchase securely.</string>
+    <string name="already_have_an_account_login">Already have an account? <b>Login</b></string>
+</resources>

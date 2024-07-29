@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui_layer.sheets.activity_viewmodel_ui.notification_activity.NotificationActivity">
+
+    <TextView
+        android:id="@+id/notifications_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Notifications"
+        android:layout_marginTop="61dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notification_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18sp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="notification"
+        android:textColor="@color/theme"
+        android:textSize="16sp"
+        android:layout_marginStart="40dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notifications_title_tv" />
+
+    <View
+        android:id="@+id/underline_tv"
+        android:layout_width="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="2dp"
+        android:background="@color/theme"
+        app:layout_constraintEnd_toEndOf="@+id/notification_tv"
+        app:layout_constraintStart_toStartOf="@+id/notification_tv"
+        app:layout_constraintTop_toBottomOf="@+id/notification_tv" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notification_rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/underline_tv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
